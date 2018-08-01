@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans)
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+img{
+    width: 100%;
+}
+.topsection {
+    background: #232323;
+    padding: 30px;
+}
+.logo {
+    line-height: 0px;
+    float: left;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+}
+.social {
+    margin-top: -15px;
+    float: right;
+}
+.social i {
+    margin-left: 10px;
+    color: #C4C4C3;
+    font-size: 25px;
+}
+section.main-menu {
+    margin-left: 25px;
+}
+.top-bar{
+
+}
+.top-bar-left {
+    line-height: 55px;
+    margin-top: 5px;
+    float: left;
+}
+.top-bar-right {
+    margin-top: 13px;
+    float: right;
+}
+.top-bar-right ul li{
+    list-style: none;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #FEFEFD;
+}
+.dropdown li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+.dropdown li a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: bold;
+}
+.dropdown li.active a{
+    color: #15B5BF;
+    border-bottom: 2px solid #15B5BF;
+}
+.dropdown li a:hover{
+    color: #15B5BF;
+    border-bottom: 2px solid #15B5BF;
+}
+input[type=search] {
+    font-size: 15px;
+    padding: 10px 0px;
+    -webkit-appearance: none;
+    font-family: verdana;
+}
+
+.slidersection{
+    width: 100%;
+    background-image: url('../img/02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 185px;
+    color: #fff;
+}
+li.orbit-slide.no-motionui {
+    list-style: none;
+}
+.orbit-previous {
+    padding: 7px 15px;
+    float: left;
+    background-color: rgba(10,10,10,0.5);
+    border: navajowhite;
+}
+.orbit-next {
+    padding: 7px 15px;
+    float: right;
+    background-color: rgba(10,10,10,0.5);
+    border: navajowhite;
+}
+.item{
+    width: 700px;
+    margin: 0 auto;
+}
+.item h2 {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+.Servicesection{
+    padding: 40px 0;
+}
+.Servicesection h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #717171;
+    font-size: 27px;  
+}
+.Servicesection p{
+    margin-bottom: 55px;
+    color: #777;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+.ourservice {
+    width: 250px;
+}
+.ourservice i {
+    font-size: 85px;
+    color: #CACACA;
+}
+.ourservice i:hover {
+    color: #00BCCB;
+    margin-top: 40px;
+}
+.ourservice i.second{
+    margin-top: 40px;
+    color: #00BCCB;
+}
+.ourservice h4{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #7F7F7F;
+}
+.ourservice p{
+    margin: 0px;
+    color: #777;
+    font-size: 15px;
+}
+.productsection{
+    background-color: #eeeeee;
+    padding: 40px 0px;
+}
+.portfolioarea {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.portfolioarea img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.portfolioarea h4{
+    color: #6C6C6C;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.portfolioarea p{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: verdana;
+}
+.clientsection{
+    padding: 60px 0;
+}
+.clientarea img{
+    width: 140px;
+    color: #949494;
+}
+.image3 img{
+    margin-top: 10px;
+}
+.image4 img {
+    margin-top: -15px;
+}
+.contactsection{
+    background-color: #4F4F4F;
+    color: #B6B6B6;
+    padding: 30px 0;
+}
+.postsection p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: verdana;
+}
+.postsection .fa{
+    font-size: 18px;
+}
+.tagsection p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: verdana;
+}
+.aboutsection p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: verdana;
+}
+.getintouch p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: verdana;
+}
+.getintouch .fa {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.footersection {
+    background: #232323;
+    padding: 30px;
+}
+.footersection p{
+    float: left;
+    font-family: verdana;
+    color: #B6B6B6;
+}
+.footersection .social {
+    float: right;
+    margin-top: 0px;
+}
+.footersection .social i {
+    color: #C4C4C3;
+    font-size: 25px;
+}

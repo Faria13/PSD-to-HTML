@@ -1,0 +1,247 @@
+.headsection{
+    background-color: #262626;
+}
+.navbar-inverse{
+    background-color: transparent;
+    border: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    margin-top: 5px;
+    color: #d9d9d9;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #F9AD18;
+}
+.main-nav li.first a{
+    color: #F9AD18;
+}
+.bannersection{
+    background-color: #2a2a2a;
+    padding: 35px 0;
+}
+.banner{
+
+}
+.banner h2 {
+    font-size: 60px;
+    color: #d9d9d9;
+}
+.banner p {
+    font-size: 30px;
+    color: #d9d9d9;
+}
+.banner .btn {
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    background-color: #F9AD18;
+    color: #000;
+    padding: 12px 30px;
+    margin-top: 40px;
+    font-family: verdana;
+    text-transform: uppercase;
+}
+.banner .btn:hover{
+    background-color: #fff;
+    color: #262626;
+   
+}
+.service{
+    padding: 90px 0;
+    background-color: #f8f8f8;
+}
+.sameservice{
+    color: #616161;
+}
+.sameservice i{
+    font-size: 70px;
+}
+.sameservice h4 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.sameservice p {
+    font-family: verdana;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+.conactsection{
+    background-color: #313131;
+    color: #e0e0e0;
+    padding: 60px 0;
+}
+.portfolio{
+    padding: 60px 0;
+}
+.portfolio h2 {
+    text-transform: uppercase;
+    color: #5B5A5C;
+    font-size: 35px;
+    font-weight: bold;
+}
+.portfolio p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.button-group{
+    margin-bottom: 10px;
+}
+.button-group .btn {
+    background-color: #F9A021;
+    color: #000;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-family: verdana;
+    margin-right: 5px;
+    border: none;
+    border-radius: 0px;
+}
+.portfolioarea img{
+    filter: grayscale(0%);
+    width: 100%;
+    margin-top: 15px;
+}
+.portfolioarea img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    width: 100%;
+    margin-top: 15px;
+}
+/* sort and Filter */
+
+* { box-sizing: border-box; }
+/* ---- button ---- */
+
+.button {
+    background-color: #FEA620;
+    display: inline-block;
+    padding: 8px 20px;
+    border: none;
+    color: #222;
+    font-family: verdana;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #595959;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #595959;
+  color: #fff;
+}
+
+.button.is-checked {
+  color: white;
+}
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 25px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.button-group .button {
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+.button-group .button:first-child { border-radius: 4px; }
+.button-group .button:last-child { border-radius: 4px; }
+
+/* ---- isotope ---- */
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 25%;
+  border: 5px solid #fff;
+}
+.element-item img{
+  width: 100%;
+}
+
+/* end sort and Filter */
+.contact{
+    color: #e0e0e0;
+    font-weight: bold;
+}
+.contact h2 {
+    font-weight: bold;
+}
+.contact p {
+    font-weight: normal;
+    color: #8E8E8D;
+    font-size: 22px;
+}
+.ouraddress{
+    margin: 0 auto;
+    width: 570px;
+    overflow: hidden;
+}
+.contact .address {
+    padding-left: 5px;
+    margin-right: 25px;
+    font-size: 18px;
+    float: left;
+    color: #BBBBBC;
+}
+.contact .phone{
+    font-size: 17px;
+    float: left;
+    color: #BBBBBC;
+}
+.social{
+
+}
+.social i {
+    margin-right: 7px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.social .fb{
+    background-color: #4876AF;
+}
+.social .tm{
+    background-color: #57AED1;
+}
+.social .pin{
+    background-color: #DB5B54;
+}
+.footer{
+    background-color: #111111;
+    padding: 20px;
+    color: #c3c3c3;
+}
+.footer p{
+    font-family: verdana;
+    margin-top: 10px;
+}

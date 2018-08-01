@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: verdana,sans-serif;
+	line-height: 18px;
+	color: #333;
+	background-color: #ece9d8;
+}
+.template{
+	margin: 0 auto;
+	width: 960px;
+}
+.clear{
+	overflow: hidden;
+}
+.headersection{
+	
+}
+.header{
+	background-color: #333333;
+	height: 80px;
+}
+.headerleft {
+    color: #fff;
+    width: 480px;
+    float: left;
+}
+.headerleft h2 {
+    font-family: arial;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 40px;
+    line-height: 70px;
+}
+.headerright {
+    line-height: 70px;
+    float: right;
+    width: 447px;
+    color: #fff;
+}
+.headerright a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.headerright a:hover{
+	color: #00adef;
+}
+.headerright a.active{
+	color: #00adef;
+}
+.mainsection{
+	background-color: #fff;
+}
+.slogansection {
+    border-bottom: 2px dotted #a8a8a8;
+    margin: 30px 48px;
+    padding-bottom: 8px;
+}
+.slogansection h2 {
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+}
+.slogansection h3 {
+    padding-bottom: 20px;
+    color: #a8a8a8;
+    font-size: 33px;
+    line-height: 35px;
+    font-family: arial;
+}
+.description {
+    border-bottom: 2px dotted #a8a8a8;
+    margin: 30px 48px;
+    color: #666;
+    font-size: 25px;
+    line-height: 28px;
+}
+.description p {
+    padding-bottom: 30px;
+}
+.contentsection{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.service {
+    background: #00adef;
+    color: #fff;
+    width: 217px;
+    float: left;
+    margin-left: 47px;
+    padding: 20px;
+    box-shadow: 4px 4px 0px 0 rgba(0,0,0,0.1);
+}
+.service h2 {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px dotted;
+    padding-bottom: 15px;
+}
+.service p {
+	line-height: 21px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.getmore {
+    margin-bottom: 5px;
+    padding: 12px;
+    background-color: #0076a4;
+    text-align: center;
+}
+.getmore a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mainbottom {
+    padding-bottom: 30px;
+    margin: 35px 48px 0px 48px;
+    border-top: 2px dotted #a8a8a8;
+    padding-top: 30px;
+    border-bottom: 2px dotted #a8a8a8;
+}
+.clientsection {
+    padding-right: 30px;
+    border-right: 2px dotted #ccc;
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+}
+.clientsection h2{
+	color: #666;
+	font-size: 25px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.Testimonial{
+
+}
+.clientimg {
+    margin-top: 4px;
+    float: left;
+    margin-right: 20px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.clientimg img{
+	float: left;
+	width: 100px;
+	height: 80px;
+	background-size: cover;
+	background-position: center;
+	
+}
+.clientcont{
+	margin-bottom: 20px;
+
+}
+.clientcont p{
+	color: #777;
+}
+.clientname{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.clientcont a {
+    text-decoration: none;
+    color: #00adef;
+    font-size: 15px;
+}
+.projectsection{
+	width: 400px;
+	float: right;
+}
+.projectsection h2{
+	color: #666;
+	font-size: 25px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.projectsection h3 {
+    color: #888;
+    margin-bottom: 10px;
+}
+.projectsection img {
+    margin-bottom: 5px;
+    width: 390px;
+    height: 195px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.projectsection p {
+    color: #777;
+    margin-bottom: 5px;
+}
+.projectsection a {
+    text-decoration: none;
+    color: #00adef;
+}
+.footer{
+	background-color: #fff;
+}
+.footer p{
+	color: #666;
+	padding-left: 48px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
